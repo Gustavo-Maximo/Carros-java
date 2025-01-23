@@ -1,0 +1,20 @@
+public class Program {
+  public static void main(String args[]) {
+    
+    Carro carro1 = new Carro(1980, "VW", "Fusca", "Azul");
+        System.out.println(carro1.exibirModelo());
+        carro1.exibirAnoECor();
+    
+    System.out.println();
+     
+    Carro carro2 = new Carro(2000, "Ford", "Fiesta", "Vermelho");
+        System.out.println(carro2.exibirModelo());
+        carro2.exibirAnoECor();
+    
+    System.out.println();
+    
+    Carro meuCarro = new Carro(2024, "VW", "Tiguan", "Cinza");
+        System.out.println(meuCarro.exibirModelo());
+        meuCarro.exibirAnoECor();
+  }
+}
